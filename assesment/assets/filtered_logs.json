@@ -1,0 +1,1320 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1732965616.794][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1732965617.497][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"131.0.6778.86\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})\",\n         \"userDataDir\": \"C:\\\\Users\\\\hp\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir2988_613894645\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:61193\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"20296dcfbafa5fe52580f4e28ff3b0a0\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965617.836][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1732965617.885][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE MaximizeWindow {\n   \"height\": 832,\n   \"width\": 1552,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1732965617.910][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND Navigate {\n   \"url\": \"http://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1732965620.047][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732965620.055][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1732965620.075][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965620.105][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1732965620.126][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.63CF63053EF8B47FBDA4284090855934.e.80\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965620.253][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND ClearElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.63CF63053EF8B47FBDA4284090855934.e.80\"\n}\n",
+            "RESPONSE": "[1732965620.327][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1732965620.333][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND TypeElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.63CF63053EF8B47FBDA4284090855934.e.80\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1732965620.462][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732965620.471][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND TypeElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.63CF63053EF8B47FBDA4284090855934.e.80\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
+            "RESPONSE": "[1732965624.576][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732965624.587][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='Popularity']\"\n}\n",
+            "RESPONSE": "[1732965624.634][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.336\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965624.659][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND IsElementEnabled {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.336\"\n}\n",
+            "RESPONSE": "[1732965624.670][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1732965624.695][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND ClickElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.336\"\n}\n",
+            "RESPONSE": "[1732965624.955][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732965624.970][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@id, 'productRating')]/div\"\n}\n",
+            "RESPONSE": "[1732965624.999][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.338\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.339\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.340\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.341\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.342\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.343\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.344\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.345\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.346\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.347\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.348\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.349\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.350\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.351\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.352\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.353\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.354\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.355\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.356\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1732965625.006][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.338\"\n}\n",
+            "RESPONSE": "[1732965625.028][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.032][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.339\"\n}\n",
+            "RESPONSE": "[1732965625.047][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.052][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.340\"\n}\n",
+            "RESPONSE": "[1732965625.067][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.075][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.341\"\n}\n",
+            "RESPONSE": "[1732965625.087][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.092][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.342\"\n}\n",
+            "RESPONSE": "[1732965625.106][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.110][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.343\"\n}\n",
+            "RESPONSE": "[1732965625.123][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.129][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.344\"\n}\n",
+            "RESPONSE": "[1732965625.143][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.148][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.345\"\n}\n",
+            "RESPONSE": "[1732965625.160][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.5\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.165][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.346\"\n}\n",
+            "RESPONSE": "[1732965625.179][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.182][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.347\"\n}\n",
+            "RESPONSE": "[1732965625.196][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.199][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.348\"\n}\n",
+            "RESPONSE": "[1732965625.218][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.223][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.349\"\n}\n",
+            "RESPONSE": "[1732965625.400][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965625.407][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@id, 'productRating')]/div\"\n}\n",
+            "RESPONSE": "[1732965625.426][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.416\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.417\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.418\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.419\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.420\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.421\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.422\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.423\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.424\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.425\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.426\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.427\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.428\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.429\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.430\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.431\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.432\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.433\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.434\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1732965625.433][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.416\"\n}\n",
+            "RESPONSE": "[1732965625.447][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.452][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.417\"\n}\n",
+            "RESPONSE": "[1732965625.468][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.474][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.418\"\n}\n",
+            "RESPONSE": "[1732965625.499][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.503][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.419\"\n}\n",
+            "RESPONSE": "[1732965625.520][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.525][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.420\"\n}\n",
+            "RESPONSE": "[1732965625.543][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.547][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.421\"\n}\n",
+            "RESPONSE": "[1732965625.563][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.569][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.422\"\n}\n",
+            "RESPONSE": "[1732965625.585][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.592][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.423\"\n}\n",
+            "RESPONSE": "[1732965625.610][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.614][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.424\"\n}\n",
+            "RESPONSE": "[1732965625.631][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.635][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.425\"\n}\n",
+            "RESPONSE": "[1732965625.652][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.659][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.426\"\n}\n",
+            "RESPONSE": "[1732965625.675][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.682][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.427\"\n}\n",
+            "RESPONSE": "[1732965625.698][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.702][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.428\"\n}\n",
+            "RESPONSE": "[1732965625.719][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.724][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.429\"\n}\n",
+            "RESPONSE": "[1732965625.739][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.744][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.430\"\n}\n",
+            "RESPONSE": "[1732965625.760][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.764][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.431\"\n}\n",
+            "RESPONSE": "[1732965625.780][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.785][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.432\"\n}\n",
+            "RESPONSE": "[1732965625.802][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.807][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.433\"\n}\n",
+            "RESPONSE": "[1732965625.826][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.830][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.434\"\n}\n",
+            "RESPONSE": "[1732965625.847][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.851][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.435\"\n}\n",
+            "RESPONSE": "[1732965625.868][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.871][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.436\"\n}\n",
+            "RESPONSE": "[1732965625.889][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.894][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.437\"\n}\n",
+            "RESPONSE": "[1732965625.910][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.913][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.438\"\n}\n",
+            "RESPONSE": "[1732965625.927][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.931][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.7EEC140F7AB5D46FF2809BBF59691B9C.e.439\"\n}\n",
+            "RESPONSE": "[1732965625.946][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1732965625.952][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND Navigate {\n   \"url\": \"http://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1732965627.428][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732965629.444][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1732965629.476][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965629.493][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1732965629.509][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.3CD2EE60C80B8DE2093FDD0CFAF8CD62.e.489\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965629.596][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND ClearElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.3CD2EE60C80B8DE2093FDD0CFAF8CD62.e.489\"\n}\n",
+            "RESPONSE": "[1732965629.662][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1732965629.669][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND TypeElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.3CD2EE60C80B8DE2093FDD0CFAF8CD62.e.489\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1732965629.841][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732965629.847][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND TypeElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.3CD2EE60C80B8DE2093FDD0CFAF8CD62.e.489\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
+            "RESPONSE": "[1732965632.718][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732965632.723][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_75nlfW']\"\n}\n",
+            "RESPONSE": "[1732965632.766][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.712\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.713\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.714\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.715\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.716\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.717\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.718\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.719\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.720\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.721\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.722\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.723\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.724\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.725\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.726\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.727\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.728\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.729\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.730\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1732965632.771][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.712\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965632.789][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.736\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965632.792][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.712\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965632.810][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.737\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965632.814][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.736\"\n}\n",
+            "RESPONSE": "[1732965632.826][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965632.829][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.713\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965632.847][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.738\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965632.855][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.713\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965632.877][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.739\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965632.881][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.738\"\n}\n",
+            "RESPONSE": "[1732965632.922][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965632.926][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.714\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965632.939][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.740\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965632.945][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.714\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965632.959][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.741\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965632.963][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.740\"\n}\n",
+            "RESPONSE": "[1732965632.979][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965632.984][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.715\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965632.999][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.742\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.003][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.715\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.025][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.743\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.028][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.742\"\n}\n",
+            "RESPONSE": "[1732965633.043][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.046][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.716\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.061][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.744\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.065][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.716\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.079][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.745\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.083][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.744\"\n}\n",
+            "RESPONSE": "[1732965633.096][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"17% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.101][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.717\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.115][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.746\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.118][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.717\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.131][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.747\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.135][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.746\"\n}\n",
+            "RESPONSE": "[1732965633.147][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"17% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.151][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.718\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.163][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.748\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.168][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.718\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.180][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.749\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.185][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.748\"\n}\n",
+            "RESPONSE": "[1732965633.196][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"17% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.200][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.719\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.212][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.750\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.215][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.719\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.228][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.751\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.231][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.750\"\n}\n",
+            "RESPONSE": "[1732965633.245][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"17% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.249][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.720\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.263][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.752\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.268][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.720\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.279][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.753\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.282][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.752\"\n}\n",
+            "RESPONSE": "[1732965633.295][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.299][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.721\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.313][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.754\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.318][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.721\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.329][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.755\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.333][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.754\"\n}\n",
+            "RESPONSE": "[1732965633.346][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.351][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.722\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.362][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.756\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.367][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.722\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.379][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.757\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.382][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.756\"\n}\n",
+            "RESPONSE": "[1732965633.396][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"14% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.399][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.723\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.412][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.758\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.416][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.723\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.428][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.759\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.431][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.758\"\n}\n",
+            "RESPONSE": "[1732965633.444][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.447][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.724\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.461][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.760\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.466][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.724\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.478][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.761\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.481][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.760\"\n}\n",
+            "RESPONSE": "[1732965633.494][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"14% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.497][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.725\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.510][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.762\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.513][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.725\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.527][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.763\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.530][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.762\"\n}\n",
+            "RESPONSE": "[1732965633.545][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.549][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.726\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.562][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[@class='UkUFwK']\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965633.568][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.727\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.582][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[@class='UkUFwK']\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965633.588][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.728\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.603][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[@class='UkUFwK']\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965633.607][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.729\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.620][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[@class='UkUFwK']\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965633.625][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.730\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.638][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.764\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.641][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.730\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.655][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.765\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.658][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.764\"\n}\n",
+            "RESPONSE": "[1732965633.671][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"26% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.674][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.765\"\n}\n",
+            "RESPONSE": "[1732965633.686][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Apple iPhone 15 Pro Max (Natural Titanium, 512 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.697][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.731\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.711][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.766\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.714][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.731\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.729][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.767\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.734][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.766\"\n}\n",
+            "RESPONSE": "[1732965633.745][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"12% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.750][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.732\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.765][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[@class='UkUFwK']\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965633.769][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.733\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.780][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.768\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.784][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.733\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.796][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.769\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.800][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.768\"\n}\n",
+            "RESPONSE": "[1732965633.812][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.817][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.734\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.828][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.770\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.833][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.734\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1732965633.845][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.771\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965633.850][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.770\"\n}\n",
+            "RESPONSE": "[1732965633.863][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.867][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.771\"\n}\n",
+            "RESPONSE": "[1732965633.878][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Apple iPhone 14 Plus (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1732965633.883][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.94D0D8E3B1A8D8A5461C10F899F311ED.e.735\",\n   \"using\": \"xpath\",\n   \"value\": \".//div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1732965633.895][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//div[@class='UkUFwK']\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965633.902][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND Navigate {\n   \"url\": \"http://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1732965635.097][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732965637.114][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1732965637.130][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=131.0.6778.86)\n"
+        },
+        {
+            "COMMAND": "[1732965637.136][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1732965637.148][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.8989176FA60E4B0938A64DEEA97F373B.e.814\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965637.204][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND ClearElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.8989176FA60E4B0938A64DEEA97F373B.e.814\"\n}\n",
+            "RESPONSE": "[1732965637.259][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1732965637.265][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND TypeElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.8989176FA60E4B0938A64DEEA97F373B.e.814\",\n   \"text\": \"Coffee Mug\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\" ]\n}\n",
+            "RESPONSE": "[1732965637.428][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732965637.433][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND TypeElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.8989176FA60E4B0938A64DEEA97F373B.e.814\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
+            "RESPONSE": "[1732965639.136][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1732965641.150][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"(//div[@class='XqNaEv'])[1]\"\n}\n",
+            "RESPONSE": "[1732965641.168][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.909\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965641.186][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND IsElementEnabled {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.909\"\n}\n",
+            "RESPONSE": "[1732965641.196][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1732965641.214][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND ClickElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.909\"\n}\n",
+            "RESPONSE": "[1732965641.444][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1732965643.457][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slAVV4']\"\n}\n",
+            "RESPONSE": "[1732965643.483][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.951\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.950\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.952\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.953\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.954\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.955\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.956\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.957\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.958\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.959\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.960\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.961\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.962\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.963\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.964\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.965\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.966\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.967\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.968\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1732965643.491][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.951\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965643.514][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.990\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.517][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.990\"\n}\n",
+            "RESPONSE": "[1732965643.531][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Thiwa Double Wall Stainless Steel Tea Coffee Solid Morn...\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.535][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.951\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965643.563][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.991\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.590][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.951\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965643.613][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.992\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.617][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.992\"\n}\n",
+            "RESPONSE": "[1732965643.631][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(1,293)\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.635][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.950\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965643.652][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.993\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.655][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.993\"\n}\n",
+            "RESPONSE": "[1732965643.673][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Eha Earth-Friendly Classic Coffee | Made with Rice Husk...\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.678][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.950\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965643.694][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.940\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.718][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.950\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965643.738][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.994\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.743][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.994\"\n}\n",
+            "RESPONSE": "[1732965643.761][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(168)\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.765][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.952\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965643.781][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.995\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.785][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.995\"\n}\n",
+            "RESPONSE": "[1732965643.803][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Giftspedia Photo & Text Printed Cup For Birthday , Anni...\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.808][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.952\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965643.825][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.947\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.849][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.952\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965643.864][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.996\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.868][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.996\"\n}\n",
+            "RESPONSE": "[1732965643.885][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(1,279)\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.889][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.953\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965643.907][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.997\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.911][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.997\"\n}\n",
+            "RESPONSE": "[1732965643.927][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"GOOD TO GREAT CREATION Iced Coffee Drinking Glasses wit...\"\n"
+        },
+        {
+            "COMMAND": "[1732965643.931][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.953\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965643.948][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.948\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.974][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.953\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965643.989][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.998\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965643.993][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.998\"\n}\n",
+            "RESPONSE": "[1732965644.011][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(1,350)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.015][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.954\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.030][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.999\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.034][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.999\"\n}\n",
+            "RESPONSE": "[1732965644.056][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"SPEACK Coffee Lover's 1st Preferable Choice Sipper Lid ...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.060][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.954\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.076][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1000\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.099][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.954\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.118][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1001\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.122][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1001\"\n}\n",
+            "RESPONSE": "[1732965644.147][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(7,768)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.152][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.955\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.171][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1002\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.176][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1002\"\n}\n",
+            "RESPONSE": "[1732965644.193][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Thiwa Tea/Milk Lid Cup Unbreakable Double Wall Hot and ...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.197][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.955\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.213][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1003\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.236][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.955\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.253][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1004\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.259][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1004\"\n}\n",
+            "RESPONSE": "[1732965644.273][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(9,124)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.278][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.956\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.294][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1005\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.298][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1005\"\n}\n",
+            "RESPONSE": "[1732965644.313][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"OFFYX Stainless Steel Tea Cup Stainless Steel Coffee wi...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.318][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.956\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.334][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1006\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.357][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.956\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.377][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1007\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.379][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1007\"\n}\n",
+            "RESPONSE": "[1732965644.397][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(1,143)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.400][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.957\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.416][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1008\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.420][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1008\"\n}\n",
+            "RESPONSE": "[1732965644.436][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"SKYTONE Mr. & Mrs. Couple with Lid Spoon Wedding Annive...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.441][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.957\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.456][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1009\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.476][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.957\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.493][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1010\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.496][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1010\"\n}\n",
+            "RESPONSE": "[1732965644.513][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(406)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.518][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.958\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.537][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1011\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.543][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1011\"\n}\n",
+            "RESPONSE": "[1732965644.561][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"MILTON Thermosteel Black | Hot & Cold Flask | Soup | Te...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.565][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.958\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.580][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1012\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.605][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.958\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.627][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1013\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.630][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1013\"\n}\n",
+            "RESPONSE": "[1732965644.647][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(402)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.651][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.959\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.670][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1014\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.675][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1014\"\n}\n",
+            "RESPONSE": "[1732965644.693][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"ZORI Premium Quality Never Ever Give Up Motivation Prin...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.697][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.959\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.714][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1015\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.743][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.959\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.763][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1016\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.767][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1016\"\n}\n",
+            "RESPONSE": "[1732965644.787][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(494)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.794][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.960\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.810][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1017\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.813][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1017\"\n}\n",
+            "RESPONSE": "[1732965644.828][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Thiwa Double Wall coffee mug stainless steel Couple Cof...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.832][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.960\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.846][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1018\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.869][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.960\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965644.886][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1019\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.890][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1019\"\n}\n",
+            "RESPONSE": "[1732965644.910][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(2,125)\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.914][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.961\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965644.933][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1020\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965644.937][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1020\"\n}\n",
+            "RESPONSE": "[1732965644.960][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Ser Ak Bubu Dudu Designer Printed Coffee 47 Ceramic Cof...\"\n"
+        },
+        {
+            "COMMAND": "[1732965644.966][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.961\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965644.983][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1021\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.009][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.961\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.026][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1022\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.030][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1022\"\n}\n",
+            "RESPONSE": "[1732965645.047][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(25)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.053][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.962\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.076][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1023\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.080][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1023\"\n}\n",
+            "RESPONSE": "[1732965645.096][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"SK Prints Magic Ceramic Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.101][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.962\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.118][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1024\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.143][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.962\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.162][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1025\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.166][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1025\"\n}\n",
+            "RESPONSE": "[1732965645.186][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(3,150)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.192][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.963\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.210][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1026\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.213][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1026\"\n}\n",
+            "RESPONSE": "[1732965645.231][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"ZORI Premium Quality \\\" Shinchan High On Music \\\" Printed...\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.235][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.963\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.259][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1027\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.278][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.963\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.291][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1028\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.294][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1028\"\n}\n",
+            "RESPONSE": "[1732965645.308][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(357)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.311][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.964\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.326][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1029\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.328][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1029\"\n}\n",
+            "RESPONSE": "[1732965645.342][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Thiwa Coffee and TeaMug gift for Birthday,Couple,Friend...\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.344][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.964\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.357][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1030\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.371][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.964\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.385][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1031\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.387][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1031\"\n}\n",
+            "RESPONSE": "[1732965645.403][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(7,236)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.408][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.965\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.419][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1032\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.422][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1032\"\n}\n",
+            "RESPONSE": "[1732965645.435][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"NYRWANA DELIVERING SMILES IN INIDA Mr Mrs Coffees With ...\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.438][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.965\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.451][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1033\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.469][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.965\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.483][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1034\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.485][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1034\"\n}\n",
+            "RESPONSE": "[1732965645.498][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(214)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.502][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.966\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.515][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1035\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.518][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1035\"\n}\n",
+            "RESPONSE": "[1732965645.533][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"dk printing SPIDERMAN-3 MUG Ceramic Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.535][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.966\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.551][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1036\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.570][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.966\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.583][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1037\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.586][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1037\"\n}\n",
+            "RESPONSE": "[1732965645.599][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(13)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.603][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.967\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.618][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1038\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.621][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1038\"\n}\n",
+            "RESPONSE": "[1732965645.635][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"dk printing SNOWFALL MUG Ceramic Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.639][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.967\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.653][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1039\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.670][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.967\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.683][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1040\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.687][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1040\"\n}\n",
+            "RESPONSE": "[1732965645.714][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(12)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.721][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.968\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.758][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1041\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.761][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1041\"\n}\n",
+            "RESPONSE": "[1732965645.774][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Bhakhand Multi Purpose Steel Insulated Camera Lens Shap...\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.779][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.968\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.791][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1042\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.810][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.968\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.825][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1043\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.830][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1043\"\n}\n",
+            "RESPONSE": "[1732965645.844][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(831)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.849][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.969\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.863][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1044\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.866][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1044\"\n}\n",
+            "RESPONSE": "[1732965645.880][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"FAZAKA Photo, Quote, Name, Wish, brithday Ceramic Coffe...\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.883][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.969\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.894][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1045\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.912][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.969\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965645.927][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1046\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.929][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1046\"\n}\n",
+            "RESPONSE": "[1732965645.943][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(140)\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.946][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.970\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965645.960][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1047\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965645.963][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1047\"\n}\n",
+            "RESPONSE": "[1732965645.976][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"dk printing HAPPY ANNIVERSARY DIDI AND JIJU MUG Ceramic...\"\n"
+        },
+        {
+            "COMMAND": "[1732965645.979][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.970\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965645.995][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1048\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.014][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.970\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.028][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1049\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.031][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1049\"\n}\n",
+            "RESPONSE": "[1732965646.044][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(8)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.047][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.971\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.060][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1050\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.062][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1050\"\n}\n",
+            "RESPONSE": "[1732965646.076][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"JIGSHTIAL Drinking Coffee Cup Sipper Glass with Straw a...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.078][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.971\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.091][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1051\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.105][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.971\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.116][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1052\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.118][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1052\"\n}\n",
+            "RESPONSE": "[1732965646.130][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(32)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.133][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.972\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.147][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1053\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.150][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1053\"\n}\n",
+            "RESPONSE": "[1732965646.164][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Nirvaana Thermos Flask with Lid Insulated Travel Tea an...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.167][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.972\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.183][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1054\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.200][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.972\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.213][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1055\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.215][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1055\"\n}\n",
+            "RESPONSE": "[1732965646.226][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(1,858)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.230][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.973\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.244][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1056\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.247][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1056\"\n}\n",
+            "RESPONSE": "[1732965646.259][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"MAGICSPOON Stainless Steel Coffee with Lid (300 ml) (Pa...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.263][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.973\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.276][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1057\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.292][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.973\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.304][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1058\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.306][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1058\"\n}\n",
+            "RESPONSE": "[1732965646.317][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(162)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.320][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.974\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.334][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1059\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.337][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1059\"\n}\n",
+            "RESPONSE": "[1732965646.350][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Nirvair Travel, Insulated Coffee with Leakproof Lid, Va...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.353][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.974\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.367][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1060\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.384][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.974\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.398][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1061\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.400][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1061\"\n}\n",
+            "RESPONSE": "[1732965646.413][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(363)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.416][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.975\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.431][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1062\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.433][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1062\"\n}\n",
+            "RESPONSE": "[1732965646.448][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"BOROSIL Hydra Coffeemate Vacuum Insulated Hot & Cold Sp...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.451][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.975\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.464][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1063\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.481][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.975\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.493][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1064\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.495][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1064\"\n}\n",
+            "RESPONSE": "[1732965646.513][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(434)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.516][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.976\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.532][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1065\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.535][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1065\"\n}\n",
+            "RESPONSE": "[1732965646.561][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"MAGICSPOON Stainless Steel Coffee with Lid (300 ml) (Pa...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.565][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.976\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.578][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1066\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.595][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.976\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.609][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1067\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.611][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1067\"\n}\n",
+            "RESPONSE": "[1732965646.625][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(481)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.628][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.977\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.640][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1068\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.643][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1068\"\n}\n",
+            "RESPONSE": "[1732965646.656][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"dk printing I'M SORRY, I LOVE YOU MUG FOR ANYONE LOVER ...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.659][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.977\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.673][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1069\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.688][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.977\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.699][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1070\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.701][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1070\"\n}\n",
+            "RESPONSE": "[1732965646.719][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(13)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.722][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.978\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.734][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1071\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.737][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1071\"\n}\n",
+            "RESPONSE": "[1732965646.750][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"MAGICSPOON Stainless Steel Coffee with Lid (300 ml) (Pa...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.752][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.978\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.767][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1072\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.784][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.978\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.797][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1073\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.800][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1073\"\n}\n",
+            "RESPONSE": "[1732965646.814][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(512)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.817][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.979\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.831][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1074\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.833][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1074\"\n}\n",
+            "RESPONSE": "[1732965646.848][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"BOROSIL Vision Glass Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.852][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.979\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.867][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1075\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.884][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.979\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965646.898][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1076\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.901][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1076\"\n}\n",
+            "RESPONSE": "[1732965646.913][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(741)\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.917][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.980\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965646.933][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1077\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.936][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1077\"\n}\n",
+            "RESPONSE": "[1732965646.951][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"kkart Plastic Steel Milk-Tea-Coffee Coffee Multicolor s...\"\n"
+        },
+        {
+            "COMMAND": "[1732965646.954][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.980\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965646.968][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1078\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965646.988][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.980\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.002][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1079\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.005][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1079\"\n}\n",
+            "RESPONSE": "[1732965647.018][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(758)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.022][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.981\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.034][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1080\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.036][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1080\"\n}\n",
+            "RESPONSE": "[1732965647.049][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Eha Earth-Friendly Majestic Coffee | Made with Rice Hus...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.051][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.981\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.063][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1081\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.079][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.981\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.093][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1082\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.095][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1082\"\n}\n",
+            "RESPONSE": "[1732965647.107][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(9)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.110][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.982\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.123][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1083\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.125][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1083\"\n}\n",
+            "RESPONSE": "[1732965647.140][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"WINGS MART Ceramic Mr & Mrs Coffees | Mr Mrs | Mrs and ...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.143][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.982\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.156][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1084\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.172][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.982\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.184][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1085\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.187][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1085\"\n}\n",
+            "RESPONSE": "[1732965647.201][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(816)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.205][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.983\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.216][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1086\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.219][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1086\"\n}\n",
+            "RESPONSE": "[1732965647.234][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"heet Stainless Steel Tumbler with Silicon Aperture Stee...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.238][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.983\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.249][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1087\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.266][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.983\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.279][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1088\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.282][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1088\"\n}\n",
+            "RESPONSE": "[1732965647.296][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(185)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.299][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.984\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.313][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1089\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.315][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1089\"\n}\n",
+            "RESPONSE": "[1732965647.326][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"cello DAZZLE STELLA TROPICAL LAGOON Opalware Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.328][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.984\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.343][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1090\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.361][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.984\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.376][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1091\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.379][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1091\"\n}\n",
+            "RESPONSE": "[1732965647.391][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(302)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.394][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.985\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.407][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1092\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.409][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1092\"\n}\n",
+            "RESPONSE": "[1732965647.422][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Thiwa Steel Coffee Cup with Lid (ABS Plastic Outer) Sta...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.425][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.985\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.435][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1093\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.454][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.985\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.467][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1094\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.470][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1094\"\n}\n",
+            "RESPONSE": "[1732965647.483][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(3,951)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.489][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.986\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.502][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1095\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.506][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1095\"\n}\n",
+            "RESPONSE": "[1732965647.519][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Eha Earth-Friendly Comfy coffee Cup | 200 ml | Made wit...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.522][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.986\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.535][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1096\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.551][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.986\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.565][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1097\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.567][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1097\"\n}\n",
+            "RESPONSE": "[1732965647.581][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(42)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.584][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.987\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.599][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1098\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.603][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1098\"\n}\n",
+            "RESPONSE": "[1732965647.617][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Eha Earth Friendly Classic Coffees | Made with Rice Hus...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.620][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.987\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.634][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1099\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.652][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.987\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.667][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1100\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.669][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1100\"\n}\n",
+            "RESPONSE": "[1732965647.684][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(61)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.688][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.988\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.701][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1101\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.704][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1101\"\n}\n",
+            "RESPONSE": "[1732965647.716][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Q4S Flower design print Steel cup Stainless Steel Coffe...\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.719][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.988\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.733][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1102\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.749][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.988\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.765][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1103\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.768][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1103\"\n}\n",
+            "RESPONSE": "[1732965647.783][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(166)\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.786][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.989\",\n   \"using\": \"xpath\",\n   \"value\": \".//a[contains(@class, 'wjcEIp')]\"\n}\n",
+            "RESPONSE": "[1732965647.800][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1104\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.803][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1104\"\n}\n",
+            "RESPONSE": "[1732965647.816][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"Papita Moti Glass Glass Coffee Mug\"\n"
+        },
+        {
+            "COMMAND": "[1732965647.820][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.989\",\n   \"using\": \"xpath\",\n   \"value\": \".//img[@class='DByuf4']\"\n}\n",
+            "RESPONSE": "[1732965647.834][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1105\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.850][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND FindChildElement {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.989\",\n   \"using\": \"xpath\",\n   \"value\": \".//span[@class='Wphh3N']\"\n}\n",
+            "RESPONSE": "[1732965647.865][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1106\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732965647.868][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] COMMAND GetElementText {\n   \"id\": \"f.B19E959C051AE828088A43D443205FFA.d.9612F4BE55708F1B43C46567CEAED1C0.e.1106\"\n}\n",
+            "RESPONSE": "[1732965647.881][INFO]: [20296dcfbafa5fe52580f4e28ff3b0a0] RESPONSE GetElementText \"(151)\"\n"
+        }
+    ]
+}
